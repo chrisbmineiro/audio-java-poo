@@ -26,10 +26,10 @@ public class Audio {
         return classificacao;
     }
 
-    void curtir(){
+    public void curtir(){
         this.totalCurtidas++;
     }
-    void reproduzir(){
+    public void reproduzir(){
         this.totalReproducoes++;
     }
 }
